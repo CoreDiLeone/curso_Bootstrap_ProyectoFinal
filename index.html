@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!--Metadatos-->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="FiREE!">
+  <meta name="description" content="Portafolio de desarrollo web de FiREE!">
+  <meta name="keywords" content="HTML, CSS, JavaScript, React">
+
+  <!--Bootstrap-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+  <!--CSS-->
+  <link rel="stylesheet" href="styles.css">
+  <!--Titulo-->
+  <title>FiREE! | Desarrollo web Front-End</title>
+  <!--Favicon-->
+  <link rel="icon" type="image/x-icon" href="images/fire.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&family=Rubik+Dirt&display=swap" rel="stylesheet">
+
+</head>
+<body>
+  <!--Barra de navegacion-->
+  <nav class="navbar navbar-expand-md navbar-light">
+    <div class="container-fluid">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbar-toggler">
+        <a class="navbar-brand" href="#"><img src="images/fuego.png" alt="Logo de la página web" width="60"></a>
+        <ul class="navbar-nav d-flex justify-content-center align-items-center">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#sobre-mi">Sobre mi</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#proyectos">Proyectos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" aria-disabled="true" href="#testimonios">Testimonios</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" aria-disabled="true" href="#contacto">Contacto</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+<!--Seccion Hero-->
+<section class="hero align-items-stretch">
+<div class="hero-principal d-flex flex-column justify-content-center align-items-center">
+  <img class="hero-image-developer"src="images/persona.png" alt="Foto de FiREE!">
+  <h1 class="seccion-titulo">
+     Hola, mi nombre es FiREE!
+  </h1>
+  <h2 class="texto-presentacion">
+Soy desarrolladora web Front-End Jr. <br> Me encanta el diseño, la tecnología y
+aprender cosas nuevas.
+  </h2>
+</div>
+<div class="hero-secundario">
+  <img class="hero-secundario-imagen img-fluid" src="images/hero-inferior.svg" alt="Monitor, laptop y logos de HTML, CSS, JavaScript y React">
+</div>
+</section>
+
+<!--Sobre mi-->
+<section class="sobre-mi seccion-oscura" id="sobre-mi">
+
+<div class="contenedor text-center">
+  <h2 class="seccion-titulo">
+Conoce a FiREE!
+  </h2>
+  <p class="seccion-texto">Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+    Cum doloremque provident sed, vel beatae repellendus non
+    voluptate quidem iste, sit corporis a in? Nostrum error, 
+    numquam ducimus ipsam atque aliquam?Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+    Cum doloremque provident sed, vel beatae repellendus non
+    voluptate quidem iste, sit corporis a in? Nostrum error, 
+    numquam ducimus ipsam atque aliquam?</p>
+</div>
+</section>
+
+<!--Experiencia-->
+<section class="experiencia seccion-clara ">
+<div class="container text-center">
+  <div class="row">
+    <!--Desarrollo web-->
+  <div class="columna col-12 col-md-4">
+  <i class="bi bi-laptop"></i>
+ <p class="experiencia-titulo">Desarrollo Web</p>
+ <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+  Tempora nesciunt repudiandae eveniet natus neque ipsum minus
+  dolorem repellat exercitationem consectetur facere praesentium 
+  aperiam necessitatibus reiciendis, provident odit, amet vel 
+  commodi.</p>
+  <div class="badges-contedor">
+    <span class="badge text-bg-info">HTML</span>
+    <span class="badge text-bg-info">CSS</span>
+    <span class="badge text-bg-info">JavaScript</span>
+    <span class="badge text-bg-info">React</span>
+  </div>
+    </div>
+    <!--Artículos-->
+    <div class="columna col-12 col-md-4">
+      <i class="bi bi-laptop"></i>
+      <p class="experiencia-titulo">Artículos</p>
+      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+       Tempora nesciunt repudiandae eveniet natus neque ipsum minus
+       dolorem repellat exercitationem consectetur facere praesentium 
+       aperiam necessitatibus reiciendis, provident odit, amet vel 
+       commodi.</p>
+       <div class="badges-contedor">
+         <span class="badge text-bg-info">Escritura</span>
+         <span class="badge text-bg-info">Editar</span>
+         <span class="badge text-bg-info">Blogs</span>
+       </div>
+
+    </div>
+    <!--Estudiante-->
+    <div class="columna col-12 col-md-4">
+      <i class="bi bi-laptop"></i>
+      <p class="experiencia-titulo">Estudios</p>
+      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+       Tempora nesciunt repudiandae eveniet natus neque ipsum minus
+       dolorem repellat exercitationem consectetur facere praesentium 
+       aperiam necessitatibus reiciendis, provident odit, amet vel 
+       commodi.</p>
+       <div class="badges-contedor">
+         <span class="badge text-bg-info ">freeCodeCamp</span>
+         <span class="badge text-bg-info ">Inglés</span>
+         <span class="badge text-bg-info ">Jóvenes a programar</span>
+       </div>
+      
+    </div>
+  </div>
+</div>
+</section>
+
+<!--Proyectos-->
+<section class="proyectos-recientes seccion-clara d-flex flex-column" id="proyectos">
+  <h2 class="seccion-titulo texto-negro">Mis proyectos recientes</h2>
+  <h3 class="seccion-descripcion">Estos son algunos de los proyectos que he creado recientemente...</h3>
+  <!--Galeria de proyectos-->
+  <div class="container text-center proyectos-contenedor">
+
+    <div class="row">
+      <!--Proyecto1-->
+      <div class="col-12 col-md-6 col-lg-4">
+        <div class="proyecto">
+          <img src="images/proyecto1.png" alt="proyecto1">
+          <div class="overlay">
+            <p>Proyecto 1</p>
+            <div class="iconos-contenedor">
+          <a href="#github" target="_blank" rel="noopener noreferrer"><i class="bi bi-github"></i></a>
+          <a href="#github-live" target="_blank" rel="noopener noreferrer">
+            <i class="bi bi-display"></i>
+          </a>
+            </div>
+          
+          </div>
+        </div>
+      </div>
+      <!--Fin P-1-->
+
+       <!--Proyecto2-->
+       <div class="col-12 col-md-6 col-lg-4">
+        <div class="proyecto">
+          <img src="images/proyecto2.png" alt="proyecto2">
+          <div class="overlay">
+            <p>Proyecto 2</p>
+            <div class="iconos-contenedor">
+          <a href="#github" target="_blank" rel="noopener noreferrer"><i class="bi bi-github"></i></a>
+          <a href="#github-live" target="_blank" rel="noopener noreferrer">
+            <i class="bi bi-display"></i>
+          </a>
+            </div>
+          
+          </div>
+        </div>
+      </div>
+      <!--Fin P-2-->
+
+       <!--Proyecto3-->
+       <div class="col-12 col-md-6 col-lg-4">
+        <div class="proyecto">
+          <img src="images/proyecto3.png" alt="proyecto3">
+          <div class="overlay">
+            <p>Proyecto 3</p>
+            <div class="iconos-contenedor">
+          <a href="#github" target="_blank" rel="noopener noreferrer"><i class="bi bi-github"></i></a>
+          <a href="#github-live" target="_blank" rel="noopener noreferrer">
+            <i class="bi bi-display"></i>
+          </a>
+            </div>
+          
+          </div>
+        </div>
+      </div>
+      <!--Fin P-3-->
+
+       <!--Proyecto4-->
+       <div class="col-12 col-md-6 col-lg-4">
+        <div class="proyecto">
+          <img src="images/proyecto4.png" alt="proyecto4">
+          <div class="overlay">
+            <p>Proyecto 4</p>
+            <div class="iconos-contenedor">
+          <a href="#github" target="_blank" rel="noopener noreferrer"><i class="bi bi-github"></i></a>
+          <a href="#github-live" target="_blank" rel="noopener noreferrer">
+            <i class="bi bi-display"></i>
+          </a>
+            </div>
+          
+          </div>
+        </div>
+      </div>
+      <!--Fin P-4-->
+
+       <!--Proyecto5-->
+       <div class="col-12 col-md-6 col-lg-4">
+        <div class="proyecto">
+          <img src="images/proyecto5.png" alt="proyecto5">
+          <div class="overlay">
+            <p>Proyecto 5</p>
+            <div class="iconos-contenedor">
+          <a href="#github" target="_blank" rel="noopener noreferrer"><i class="bi bi-github"></i></a>
+          <a href="#github-live" target="_blank" rel="noopener noreferrer">
+            <i class="bi bi-display"></i>
+          </a>
+            </div>
+          
+          </div>
+        </div>
+      </div>
+      <!--Fin P-5-->
+
+       <!--Proyecto6-->
+       <div class="col-12 col-md-6 col-lg-4">
+        <div class="proyecto">
+          <img src="images/proyecto6.png" alt="proyecto6">
+          <div class="overlay">
+            <p>Proyecto 6</p>
+            <div class="iconos-contenedor">
+          <a href="#github" target="_blank" rel="noopener noreferrer"><i class="bi bi-github"></i></a>
+          <a href="#github-live" target="_blank" rel="noopener noreferrer">
+            <i class="bi bi-display"></i>
+          </a>
+            </div>
+          
+          </div>
+        </div>
+      </div>
+      <!--Fin P-6-->
+    </div>
+
+  </div>
+  <a href="#" target="_blank" rel="noopener noreferrer">
+  <button type="button" class="btn btn-info">
+    Ver más proyectos
+    <i class="bi bi-arrow-right-circle-fill"></i>
+  </button>
+  </a>
+</section>
+
+<!--Articulos-->
+<section class="articulos justify-content-start">
+<h2 class="seccion-titulo texto-negro">Artículos</h2>
+<div class="card">
+  <div class="card-header" >
+  Más recientes
+  </div>
+  <ul class="list-group list-group-flush">
+    <a href="#" rel="noopener noreferrer" class="enlace">
+      <li class="list-group-item">
+        Lorem ipsum dolor sit amet consectetur,  
+      </li>
+    </a>
+    <a href="#" rel="noopener noreferrer" class="enlace">
+      <li class="list-group-item">
+        adipisicing elit. quaerat facere accusamus  eaque voluptatem</li>
+    </a>
+    <a href="#" rel="noopener noreferrer" class="enlace">
+      <li class="list-group-item">
+        Voluptatum maxime labore neque </li>
+    </a>
+    <a href="#" rel="noopener noreferrer" class="enlace">
+      <li class="list-group-item">
+        tempore consectetur a quasi nisi</li>
+    </a>
+    <a href="#" rel="noopener noreferrer" class="enlace">
+      <li class="list-group-item">
+        inventore in, quia aspernatur excepturi</li>
+    </a>
+  </ul>
+</div>
+
+<a href="#" target="_blank" rel="noopener noreferrer">
+  <button type="button" class="btn btn-info">
+    Ver más artículos
+    <i class="bi bi-arrow-right-circle-fill"></i>
+  </button>
+</a>
+
+</section>
+
+<!--Testimonios-->
+<section class="testimonios seccion-clara" id="testimonios">
+  <h2 class="seccion-titulo">
+    Testimonios
+  </h2>
+<h3 class="seccion-descripcion">Estos son algunos testimonios de mis clientes...</h3>
+<!--Carrusel-->
+<div id="testimonios-carrusel" class="carousel slide carousel-dark">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+<div class="container">
+  <img src="images/cliente1.svg" alt="Foto de Gino" class="testimonio-img rounded-circle">
+  <p class="testimonio-texto">
+    Lorem ipsum dolor sit amet consectetur 
+    adipisicing elit. Commodi ad beatae officiis 
+    atque sunt temporibus fugit fuga recusandae 
+    ex sed ducimus numquam obcaecati hic.
+  </p>
+  <div class="testimonio-info">
+    <p class="cliente">Gino</p>
+    <p class="cargo">Gerente de proyectos en Desarrollo Web</p>
+  </div>
+</div>
+   
+    </div>
+    <div class="carousel-item">
+      <div class="container">
+        <img src="images/cliente2.svg" alt="Foto de Nora" class="testimonio-img rounded-circle">
+        <p class="testimonio-texto">
+          Lorem ipsum dolor sit amet consectetur 
+          adipisicing elit. Commodi ad beatae officiis 
+          atque sunt temporibus fugit fuga recusandae 
+          ex sed ducimus numquam obcaecati hic.
+        </p>
+        <div class="testimonio-info">
+          <p class="cliente">Nora</p>
+          <p class="cargo">Gerente de DiseñaMipáginaWeb</p>
+        </div>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <div class="container">
+        <img src="images/cliente3.svg" alt="Foto de Miguel" class="testimonio-img rounded-circle">
+        <p class="testimonio-texto">
+          Lorem ipsum dolor sit amet consectetur 
+          adipisicing elit. Commodi ad beatae officiis 
+          atque sunt temporibus fugit fuga recusandae 
+          ex sed ducimus numquam obcaecati hic.
+        </p>
+        <div class="testimonio-info">
+          <p class="cliente">Miguel</p>
+          <p class="cargo">Director de AprendeAProgramar</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev btn-bg-white" type="button" data-bs-target="#testimonios-carrusel" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden text-white">Anterior</span>
+  </button>
+  <button class="carousel-control-next btn-bg-white" type="button" data-bs-target="#testimonios-carrusel" data-bs-slide="next">
+    <span class="carousel-control-next-icon text-white" aria-hidden="true"></span>
+    <span class="visually-hidden">Siguiente</span>
+  </button>
+</div>
+</section>
+<!--Contacto-->
+<section class="contacto seccion-oscura" id="contacto">
+  <div class="container ">
+<div class="container text-center rectangulo d-flex justify-content-evenly flex-column ">
+  <div class="row">
+    <div class="col-12 col-md-4 seccion-titulo contactame">
+      ¡Hablame!
+    </div>
+    <div class="col-12 col-md-4 descripcion">
+      Contáctame para inciar tu proyecto de desarrollo web y 
+      haré que tus ideas se hagan realidad.
+    </div>
+    <div class="col-12 col-md-4 ">
+      <a href="mailto:janedoe@micorreo.com" target="_blank" rel="noopener noreferrer">
+        <button type="button">
+         Contacto 
+        <i class="bi bi-envelope-check-fill"></i>
+        </button>
+      </a>
+    </div>
+  </div>
+</div>
+  </div>
+
+</section>
+<!--Footer-->
+<footer class="seccion-oscura d-flex flex-column  align-items-center  justify-content-center">
+  <img src="images/fuego.png" alt="Icono del Portafolio" class="footer-logo">
+  <p class="footer-texto text-center"> Aprendo y creo todos los días. <br>
+  Creemos un proyecto juntos.</p>
+  <div class="iconos-redes-sociales d-flex flex-wrap align-items-center justify-content-center">
+    <a href="#" target="_blank" rel="noopener noreferrer">
+      <i class="bi bi-twitter-x"></i>
+    </a>
+    <a href="#" target="_blank" rel="noopener noreferrer">
+      <i class="bi bi-github"></i>
+    </a>
+    <a href="#" target="_blank" rel="noopener noreferrer">
+      <i class="bi bi-linkedin"></i>
+    </a>
+    <a href="#" target="_blank" rel="noopener noreferrer">
+      <i class="bi bi-envelope"></i>
+    </a>
+  </div>
+  <div class="derechos-autor"> Creado por FiREE! (2024) &#169;</div>
+</footer>
+<!--JS-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
